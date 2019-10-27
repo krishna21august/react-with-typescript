@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Message from "./Message"
+import Message from "./Message";
 
 function App() {
   // let firstValue:string = "Manny";
@@ -35,7 +35,7 @@ function App() {
         {/* <p>
           the {firstValue} is of {typeof firstValue} type!
         </p> */}
-        <Message message = "this is a message"/>
+        <Message name="krishna" message="this is a message" />
         <a
           className="App-link"
           href="https://reactjs.org"
